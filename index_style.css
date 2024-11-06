@@ -1,0 +1,45 @@
+html,
+body {
+  /* font-family: "Cormorant Infant", serif; */
+  font-family: "Sulfur Point", serif;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-style: normal;
+  background: url('images/linen-texture-material.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 100%; 
+  margin: 0;
+  overflow-y: auto;
+}
+#elements{
+  min-height: 100vh; /* to ensure text does not get cut off when viewport is resized */
+  display: flex; /* Use flexbox */
+  flex-direction: column;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+p {
+  width: 75%;
+  margin-bottom: 5%;
+  background-color: transparent; 
+  color: rgb(18, 18, 105);
+  font-weight: 200;
+}
+#contButton {
+  z-index: 999;
+  background-color: transparent;
+  color: rgb(18, 18, 105);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 400;
+  font-family: "Cormorant Infant", serif;
+}
+#contButton:hover {
+  background-color: rgb(171, 210, 255);
+}
