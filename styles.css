@@ -44,7 +44,7 @@ is not defined as a background image so it takes up space
   color: white;
   opacity: 0;
   font-size: large;
-  animation: wiggle 6s ease-in-out infinite;
+  /* animation: wiggle 6s ease-in-out infinite; */
 }
 .koreaGIF {
   top: -5%;
@@ -157,6 +157,7 @@ is not defined as a background image so it takes up space
   height: 100%;
   width: 100%;
   object-fit: cover;
+  animation: wiggleLess 6s ease-in-out infinite;
 }
 
 /***** POPUP Paragraphs ******/
@@ -164,7 +165,7 @@ is not defined as a background image so it takes up space
   /* filter: drop-shadow(rgb(110, 110, 110) .5px 1px 1px); */
   font-size: 1rem;
   line-height: 1.1rem;
-  animation: wiggleLess 6s ease-in-out infinite;
+  /* animation: wiggleLess 6s ease-in-out infinite; */
   padding-top: 30px;
 }
 #image {
@@ -297,6 +298,7 @@ is not defined as a background image so it takes up space
   border-radius: 5px;
   border: 2px solid rgb(176, 177, 181);
   font-family: "Sulfur Point", serif;
+  font-weight: bolder;
 }
 #contButton:hover {
   background-color: rgb(216, 216, 216);
